@@ -1,0 +1,38 @@
+canvas=document.getElementById("myCanvas");
+ctx=canvas.getContext("2d");
+colour="red";
+ctx.beginPath();
+      ctx.stroke();
+        ctx.strokeStyle = "blue";
+         ctx.lineWidth = 4;
+          ctx.arc(200,200, 40 ,0 , 2*Math.PI);
+         ctx.stroke();
+           ctx.beginPath();
+           ctx.stroke();
+        ctx.strokeStyle = "yellow";
+         ctx.lineWidth = 4;
+          ctx.arc(250,250, 40 ,0 , 2*Math.PI);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.stroke();
+ctx.strokeStyle = "black";
+         ctx.lineWidth = 4;
+          ctx.arc(300,200, 40 ,0 , 2*Math.PI);
+           ctx.stroke();
+           ctx.beginPath();
+           ctx.stroke();
+        ctx.strokeStyle = "green";
+         ctx.lineWidth = 4;
+          ctx.arc(350,250, 40 ,0 , 2*Math.PI);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.stroke();
+         ctx.strokeStyle = "red";
+          ctx.lineWidth = 4;
+           ctx.arc(400,200, 40 ,0 , 2*Math.PI);
+             ctx.stroke();
+             ctx.beginPath();
+             ctx.stroke();
+function clear1() {
+     ctx.clearRect(0, 0, canvas.width, canvas.height);
+     }
